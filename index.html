@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+        crossorigin="anonymous" />
+    <title>Porfolio Adam Bye</title>
+</head>
+
+<body>
+    <!--Dit is de navbar, de ingeklapte versie wordt gedaan doormiddel van wat js-->
+    <div id="navz">
+        <nav role="navigation"
+            class="flex justify-between items-center h-16 bg-gradient-to-r from-purple-900 to-black text-white relative">
+
+            <h4 class="font-bold text-white"><a href="index.html" class="pl-6">Adam Bye</a></h4>
+            <div class="px-4 cursor-pointer md:hidden" id="hamburger">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </div>
+            <div class="hidden md:block" id="menu">
+                <a href="websites.html" class="p-4">Websites & designs</a>
+                <a href="persoonlijk.html" class="p-4">Persoonlijke projecten</a>
+                <a href="overig.html" class="p-4">Overig werk</a>
+            </div>
+        </nav>
+    </div>
+
+    <!--Dit is het begin vd site-->
+    <main>
+        <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 95vh;">
+            <div class="absolute top-0 w-full h-full bg-center bg-cover"
+                style='background-image: url("./images/landingbg.jpg");'>
+                <span id="blackOverlay" class="w-full h-full absolute opacity-50 bg-black"></span>
+            </div>
+
+            <div class="container relative mx-auto" data-aos="fade-in">
+                <div class="items-center flex flex-wrap">
+                    <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+                        <img alt="..." class="max-w-full rounded-lg shadow-lg" src="./images/fotoadam.png" />
+                    </div>
+                    <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+                        <div class="md:pr-12">
+                            <h3 class="text-3xl font-semibold text-white">Mijn naam is Adam Bye</h3>
+                            <p class="mt-4 text-lg leading-relaxed text-white">
+                                Ik ben een front-end developer/webdesigner die afgestudeerd is aan 
+                                Fontys Hogescholen waar ik een HBO Associate degree Front-end development heb behaald.
+
+                                Tijdens het studeren en in mijn vrije tijd werk ik met <b>HTML, CSS, Javascript,
+                                    React en Angular</b>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Mijn werk-->
+        <section class="pt-48 pb-48 bg-gray-900 text-white">
+
+            <div class="container mx-auto px-4" data-aos="fade-down">
+                <div class="flex flex-wrap justify-center text-center mb-24">
+                    <div class="w-full lg:w-6/12 px-4">
+                        <h2 class="text-4xl font-semibold">Mijn werk</h2>
+                        <p class="text-lg leading-relaxed m-4 text-gray-600">
+                            Hier kan je een showcase vinden van verschillende dingen die ik gemaakt heb.
+                        </p>
+                    </div>
+                </div>
+
+                <!--Website & designs-->
+                <div class="flex flex-wrap">
+                    <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="fade-right">
+                        <a href="websites.html">
+                            <div class="px-6">
+                                <img alt="..." src="./images/werk1.png" class="shadow-lg max-w-full mx-auto"
+                                    style="max-width: 300px;" />
+                                <div class="pt-6 text-center">
+                                    <h5 class="text-xl font-bold">Websites & designs</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!--Persoonlijke projecten-->
+            <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="fade-up">
+                <a href="persoonlijk.html">
+                    <div class="px-6">
+                        <img alt="..." src="./images/werk4.png" class="shadow-lg max-w-full mx-auto"
+                            style="max-width: 300px;" />
+                        <div class="pt-6 text-center">
+                            <h5 class="text-xl font-bold">Persoonlijke projecten</h5>
+                </a>
+            </div>
+            </div>
+            </div>
+            
+            <!--Overig-->
+            <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="fade-left">
+                <a href="overig.html">
+                    <div class="px-6">
+                        <img alt="..." src="./images/werk6.png" class="shadow-lg max-w-full mx-auto"
+                            style="max-width: 300px;" />
+                        <div class="pt-6 text-center">
+                            <h5 class="text-xl font-bold">Overig werk</h5>
+                </a>
+            </div>
+            </div>
+            </div>
+
+            </div>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <section class="pt-20 pb-5 bg-black text-white">
+
+            <div class="container mx-auto px-4" data-aos="fade-down">
+                <div class="flex flex-wrap justify-center text-center mb-12">
+                    <div class="w-full lg:w-6/12 px-4">
+                        <h2 class="text-4xl font-semibold">Contact</h2>
+                        <p class="text-lg leading-relaxed m-4 text-gray-600">
+                            Momenteel ben ik niet actief op social media maar ben ik wel bereikbaar via email.
+                            aadam1994@hotmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-gray-400" />
+            <div class="flex flex-wrap items-center md:justify-between justify-center">
+                <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+                    <div class="text-sm text-gray-600 font-semibold py-1">
+                        © Adam Bye
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+</body>
+<!--Navbar + scroll effect scripts-->
+<script src="app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+    integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+    crossorigin="anonymous"></script>
+<script>
+    AOS.init({
+        delay: 200,
+        duration: 1200,
+        once: true,
+    })
+</script>
+
+</html>

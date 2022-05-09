@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+    crossorigin="anonymous" />
+  <title>Porfolio Adam Bye</title>
+</head>
+
+<body>
+  <!--Dit is de navbar, de ingeklapte versie wordt gedaan doormiddel van wat js-->
+  <nav role="navigation"
+    class="flex justify-between items-center h-16 bg-gradient-to-r from-purple-900 to-black text-white relative">
+
+    <h4 class="font-bold text-white"><a href="index.html" class="pl-6">Adam Bye</a></h4>
+    <div class="px-4 cursor-pointer md:hidden" id="hamburger">
+      <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+      </svg>
+    </div>
+    <div class="hidden md:block" id="menu">
+      <a href="websites.html" class="p-4">Websites & designs</a>
+      <a href="persoonlijk.html" class="p-4"><b>Persoonlijke projecten</b></a>
+      <a href="overig.html" class="p-4">Overig werk</a>
+    </div>
+  </nav>
+  
+  <!--Dit is het begin vd site-->
+  <main>
+
+    <!--Mijn werk-->
+    <section class="pt-56 pb-24 bg-gray-900 text-white">
+
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap justify-center text-center mb-24" data-aos="fade-down">
+          <div class="w-full lg:w-6/12 px-4">
+            <h2 class="text-4xl font-semibold">Persoonlijke projecten</h2>
+            <p class="text-lg leading-relaxed m-4 text-gray-600">
+              Op deze pagina heb ik willekeurige persoonlijke projecten gezet die ik heb gemaakt om nieuwe technieken te leren.
+            </p>
+          </div>
+        </div>
+
+        <!--Weerbericht-->
+        <div class="flex flex-wrap justify-center text-center mb-24" data-aos="fade-down">
+          <div class="w-full lg:w-6/12 px-4">
+            <h5 class="text-xl font-bold"><a href="http://i417398.hera.fhict.nl/weather/index.html" target="_blank">Weerbericht</h5>
+            <img alt="..." src="./images/werk4.png" class="shadow-lg max-w-full mx-auto" /></a>
+          </div>
+        </div>
+
+        <!--3js-->
+        <div class="flex flex-wrap justify-center text-center mb-24" data-aos="fade-down">
+          <div class="w-full lg:w-6/12 px-4">
+            <h5 class="text-xl font-bold"><a href="http://i417398.hera.fhict.nl/ded2/3js/index.html" target=" _blank">3JS experiment</h5>
+            <img alt="..." src="./images/werk5.png" class="shadow-lg max-w-full mx-auto" /></a>
+          </div>
+        </div>
+
+        <!--Fysiotherapie West zeeuwsvlaanderen-->
+        <div class="flex flex-wrap justify-center text-center mb-24" data-aos="fade-down">
+          <div class="w-full lg:w-6/12 px-4">
+            <h5 class="text-xl font-bold"><a href="https://i417398.hera.fhict.nl/pokedex/#/" target=" _blank">React Pokedex</h5>
+            <img alt="..." src="./images/werk12.png" class="shadow-lg max-w-full mx-auto" /></a>
+          </div>
+        </div>
+
+      </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <section class="pt-20 pb-5 bg-black text-white">
+
+      <div class="container mx-auto px-4" data-aos="fade-down">
+        <div class="flex flex-wrap justify-center text-center mb-12">
+          <div class="w-full lg:w-6/12 px-4">
+            <h2 class="text-4xl font-semibold">Contact</h2>
+            <p class="text-lg leading-relaxed m-4 text-gray-600">
+              Momenteel ben ik niet actief op social media maar ben ik wel bereikbaar via email.
+              aadam1994@hotmail.com
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-6 border-gray-400" />
+      <div class="flex flex-wrap items-center md:justify-between justify-center">
+        <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+          <div class="text-sm text-gray-600 font-semibold py-1">
+            © Adam Bye
+          </div>
+        </div>
+      </div>
+
+    </section>
+</body>
+
+<!--Navbar + scroll effect scripts-->
+<script src="app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+  integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+  crossorigin="anonymous"></script>
+<script>
+  AOS.init({
+    delay: 200,
+    duration: 1200,
+    once: true,
+  })
+</script>
+
+</html>
